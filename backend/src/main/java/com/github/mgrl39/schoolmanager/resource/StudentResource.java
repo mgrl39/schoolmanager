@@ -36,7 +36,7 @@ public class StudentResource {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteUser(@PathVariable long id) {
+    public ResponseEntity<Void> deleteStudent(@PathVariable long id) {
         return (studentController.deleteStudentById(id) ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build());
         // deleted ? 204 (No Content) : 404 (Not Found)
     }
