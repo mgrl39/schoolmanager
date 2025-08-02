@@ -40,6 +40,4 @@ public class StudentResource {
         return (studentController.deleteStudentById(id) ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build());
         // deleted ? 204 (No Content) : 404 (Not Found)
     }
-
-
 }
