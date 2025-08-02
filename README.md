@@ -1,32 +1,12 @@
-2. Sistema de Gestión Escolar
+# 🎓 School Manager Backend
 
-FUNCIONALIDADES:
-CRUD de estudiantes, profesores, cursos
+Simple Spring Boot backend for managing students, teachers, courses & grades.
 
-QUEDA HACER:
-    - MATERIA (Pertenece a un Curso, tiene mucho estudintes, caad estudiante tiene una nota en cada materia)
+## 🚀 Run
 
-NOTA: 
-    - Relaciona estudiante + Materia
+```bash
+./mvnw spring-boot:run
+````
 
-CURSO;
-    Tiene muchas aterias
-    tiene muchos estudiantes
-
-PROFESOR:
-    puede imparter una o muchas materias
-
-Matrícula de estudiantes en cursos
-Registro de notas y asistencia
-Generación de boletines
-Roles: admin, profesor, alumno
-APIs REST para frontend
-
-
-- Course → ClassGroup
-- ClassGroup → Student
-- ClassGroup → Delegado (Student)
-- Course → Subject
-- Subject → Teacher
-- Student → Grade
-- Subject → Grade
+https://doncom.me/schoolmanager
+Made with ❤️ by mgrl39!
