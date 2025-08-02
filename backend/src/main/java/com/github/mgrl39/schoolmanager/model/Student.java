@@ -7,6 +7,7 @@ package com.github.mgrl39.schoolmanager.model;
 // - Constructor, getters, methods: equals(), hashode(), toString()
 //
 
+// Meterle el CourseId
 public record Student(long id, String firstName, String lastName, String email, String dni, String phoneNumber) {
     // the body of a record is empty, we don´t need more thins
     // the compiler will create constructors, getters, equals, hashocde, tostring...
