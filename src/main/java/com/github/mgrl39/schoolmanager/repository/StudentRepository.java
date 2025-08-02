@@ -18,6 +18,10 @@ public class StudentRepository {
         students.add(new Student(3L, "Pepe", "Pepe","pelo@gmail.com", "12312323P12", "666122612"));
     }
 
+    public List<Student> findAll() {
+        return students;
+    }
+
     public List<Student> getStudents() {
         return students;
     }
@@ -34,7 +38,7 @@ public class StudentRepository {
         return (student);
     }
 
-    public boolean deleteyId(long id) {
+    public boolean deleteyById(long id) {
         int sizeBefore = students.size();
         students.removeIf(student -> student.id() == id);
         return sizeBefore != students.size();
