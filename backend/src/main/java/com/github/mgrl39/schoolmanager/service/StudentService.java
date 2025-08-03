@@ -32,6 +32,4 @@ public class StudentService {
     public Student saveStudent(Student student) {
         return studentRepository.save(student);
     }
-
-
 }
