@@ -1,0 +1,7 @@
+com.github.mgrl39.schoolmanager
+com.github.mgrl39.schoolmanager.config
+com.github.mgrl39.schoolmanager.controller
+com.github.mgrl39.schoolmanager.model
+com.github.mgrl39.schoolmanager.repository
+com.github.mgrl39.schoolmanager.resource
+com.github.mgrl39.schoolmanager.service
