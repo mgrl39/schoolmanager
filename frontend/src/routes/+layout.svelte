@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="stylesheet" href="css/pico.min.css">
 </svelte:head>
 
 {@render children?.()}
