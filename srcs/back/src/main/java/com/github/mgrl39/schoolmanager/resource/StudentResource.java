@@ -2,7 +2,6 @@ package com.github.mgrl39.schoolmanager.resource;
 
 import com.github.mgrl39.schoolmanager.controller.StudentController;
 import com.github.mgrl39.schoolmanager.model.Student;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +13,6 @@ import java.util.List;
 public class StudentResource {
     private final StudentController studentController;
 
-    @Autowired
     public StudentResource(StudentController studentController) {
         this.studentController = studentController;
     }

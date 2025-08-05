@@ -2,7 +2,6 @@ package com.github.mgrl39.schoolmanager.controller;
 
 import com.github.mgrl39.schoolmanager.service.TeacherService;
 import com.github.mgrl39.schoolmanager.model.Teacher;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
@@ -12,7 +11,6 @@ import java.util.Optional;
 public class TeacherController {
     private final TeacherService teacherService;
 
-    @Autowired
     public TeacherController(TeacherService teacherService) {
         this.teacherService = teacherService;
     }

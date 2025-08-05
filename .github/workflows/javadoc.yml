@@ -22,13 +22,13 @@ jobs:
           cache: maven
 
       - name: Generar JavaDoc con Maven
-        working-directory: backend
+        working-directory: srcs/back
         run: mvn javadoc:javadoc
 
       - name: Publicar JavaDoc en GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: backend/target/site/apidocs
+          folder: srcs/back/target/site/apidocs
           branch: gh-pages
           clean: true
           single-commit: true
